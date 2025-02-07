@@ -37,10 +37,7 @@ elif temp == 68:
 else:
     print('cold') """
 
-user_input = input("Please enter a sentence: ")
 def count_words(sentence):
-    words = sentence.split()
-    word_count = len(words)
-    return world_count
-word_count = count_words(user_input)
-print(f"The number of words in your sentence is: {word_count}")
+    return len(sentence.split())
+user_input = input("write something: ")
+print(f"your sentence has this many words: {count_words(user_input)}")
