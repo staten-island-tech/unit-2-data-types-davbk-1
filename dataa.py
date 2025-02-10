@@ -37,10 +37,19 @@ elif temp == 68:
 else:
     print('cold') """
 
-user_input = input("Please enter a sentence: ")
+""" user_input = input("enter a sentence: ")
 def count_words(sentence):
     words = sentence.split()
     word_count = len(words)
-    return world_count
+    return word_count
 word_count = count_words(user_input)
-print(f"The number of words in your sentence is: {word_count}")
+print(f"number of words: {word_count}") """
+
+#tip calculator 
+def add(x,y):
+    print(x + y)
+#input asks the user a questions and stores their response as a value
+bill = float(input("what was the bill?"))
+print(type(bill))
+print(type(bill))
+add(40, bill)
