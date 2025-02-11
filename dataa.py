@@ -45,11 +45,37 @@ def count_words(sentence):
 word_count = count_words(user_input)
 print(f"number of words: {word_count}") """
 
-#tip calculator 
-def add(x,y):
-    print(x + y)
-#input asks the user a questions and stores their response as a value
-bill = float(input("what was the bill?"))
-print(type(bill))
-print(type(bill))
-add(40, bill)
+#odd or even
+""" def check_even_odd(number):
+    if number % 2 == 0: 
+        return "even"
+    else:
+        return "odd"
+number = int(input("Enter a number: ")) 
+result = check_even_odd(number)  
+print(f"The number {number} is {result}.")   """
+
+
+""" bill = input("Enter the bill amount: ") 
+tip = input("Enter the tip percentage: ")  
+bill = float(bill) 
+tip = int(tip)  
+total = bill + tip
+print(f"The total amount to be paid is ${total:.2f}.") """
+
+def tip_calculate(bill, service):
+    if service == "not good":
+        tip = 0
+    elif service == "alright":
+        tip = 0.15 * bill
+    elif service == "good":
+        tip = 0.20 * bill
+    elif service == "great":
+        tip = 0.25 * bill
+    else:
+        print("unknown service rating.")
+        return
+total = bill = tip_calculate
+bill_amount= float(input("enter the amount of the bill: "))
+rating= input("how was the service owo (only accepts not good, alright, good, great): ")
+tip, total = tip_calculate(bill_amount, rating)
