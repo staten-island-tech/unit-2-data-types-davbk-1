@@ -7,13 +7,13 @@ wallet = 5.45
 #boolean represents true or false, used in evolution
 graduated = False
 
-def add(x,y):
-    print(x + y)
+#def add(x,y):
+    #print(x + y)
 #input asks the user a questions and stores their response as a value
-bill = float(input("what was the bill?"))
-print(type(bill))
-print(type(bill))
-add(40, bill)
+#bill = float(input("what was the bill?"))
+#print(type(bill))
+# print(type(bill))
+# add(40, bill)
 
 #lists
 students = ["Joanna", "Deivid", "other David", "Ethan"]

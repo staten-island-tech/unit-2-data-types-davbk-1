@@ -19,7 +19,7 @@ login(x) """
 x = int(input("what is the score: "))
 grade(x) """
 
-def gamble(age, id):
+""" def gamble(age, id):
     if age >= 21:
         if id:
             print("You may come in the Casino")
@@ -27,12 +27,16 @@ def gamble(age, id):
             print("You need Id verification")
     else:
         print("You're too young")
-        
+         """
 
-def gamble(age, id):
+""" def gamble(age, id):
     if age >= 21 and id == True:
             print("You may come in the Casino")
     elif age >= 21 and id == False:
           print("You need Id verification")
     else:
-          print("you're too young") 
+          print("you're too young") """
+""" if not raining == true:
+    print("go take a walk")
+if raining == false:
+      print("go for walk") """
