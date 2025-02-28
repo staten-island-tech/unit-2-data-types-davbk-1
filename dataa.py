@@ -54,13 +54,13 @@ print(f"number of words: {word_count}") """
         print("odd") """
 #tip calculator
 """ bill = input("Enter the bill amount: ")  
-tip = input("Enter the tip percentage: ")  
+tip = input("tip percentage: ")  
 bill = float(bill)  
 tip = int(tip)  
 tip_amount = (tip / 100) * bill  
 total = bill + tip_amount 
 
-print(f"The total amount to be paid is {total}.") """
+print(f"total amount is {total}.") """
 
 #tip calculate
 """ def tip_calculator():
@@ -79,7 +79,7 @@ print(f"The total amount to be paid is {total}.") """
         return
     tip_amount = (tip_percent / 100) * bill  
     total = bill + tip_amount 
-    print(f"Total amount to be paid: {total}") 
+    print(f"Total amount to be paid, only accepts bad, okay, good, great: {total}") 
 tip_calculator()
  """
 #factor thing
@@ -90,12 +90,11 @@ tip_calculator()
             print(i) 
 find_factors() """
 #gcf 
-""" def greatest_common_factor():
-    num1 = int(input("Enter first number: "))  
-    num2 = int(input("Enter second number: "))  
-    gcf = 1  
+def greatestcommonfactor ():
+    num1 = int(input("please enter the a number: "))
+    num2 = int(input("please enter another number: "))
     for i in range(1, min(num1, num2) + 1):  
         if num1 % i == 0 and num2 % i == 0:
             gcf = i  
-    print(f"The greatest common factor is {gcf}")  
-greatest_common_factor() """
+    print(f"the greatest common factor of the two numbers is: {gcf}")
+greatestcommonfactor()
